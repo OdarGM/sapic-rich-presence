@@ -7,10 +7,12 @@ async function setActivity () {
   if (!rpc) {
     return
   }
-
+  const startTimestamp = new Date();
+  
   rpc.setActivity({
     largeImageKey: 'steam_design_massive_png',
     largeImageText: 'Steam.Design',
+    startTimestamp,
     instance: false
   })
 }
