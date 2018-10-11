@@ -1,0 +1,13 @@
+{
+  "name": "sapic-rich-presence",
+  "version": "1.0.0",
+  "description": "????????????????",
+  "author": "Oddball",
+  "scripts": {
+    "main": "node main.js"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.0.1"
+  },
+  "main": "main.js"
+}
